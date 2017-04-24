@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX_sample1", "DX_sample1\DX_sample1.vcproj", "{6599002E-DCDD-4893-9688-4297D823855D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DX_sample2", "DX_sample2\DX_sample2.vcproj", "{55318348-E00D-41DA-97FF-11330AABC6B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7C31858-6AA8-448F-82D4-2C6927EC1616} = {E7C31858-6AA8-448F-82D4-2C6927EC1616}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXEngine", "DXEngine\DXEngine.vcproj", "{E7C31858-6AA8-448F-82D4-2C6927EC1616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6599002E-DCDD-4893-9688-4297D823855D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6599002E-DCDD-4893-9688-4297D823855D}.Debug|Win32.Build.0 = Debug|Win32
+		{6599002E-DCDD-4893-9688-4297D823855D}.Release|Win32.ActiveCfg = Release|Win32
+		{6599002E-DCDD-4893-9688-4297D823855D}.Release|Win32.Build.0 = Release|Win32
+		{55318348-E00D-41DA-97FF-11330AABC6B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55318348-E00D-41DA-97FF-11330AABC6B6}.Debug|Win32.Build.0 = Debug|Win32
+		{55318348-E00D-41DA-97FF-11330AABC6B6}.Release|Win32.ActiveCfg = Release|Win32
+		{55318348-E00D-41DA-97FF-11330AABC6B6}.Release|Win32.Build.0 = Release|Win32
+		{E7C31858-6AA8-448F-82D4-2C6927EC1616}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7C31858-6AA8-448F-82D4-2C6927EC1616}.Debug|Win32.Build.0 = Debug|Win32
+		{E7C31858-6AA8-448F-82D4-2C6927EC1616}.Release|Win32.ActiveCfg = Release|Win32
+		{E7C31858-6AA8-448F-82D4-2C6927EC1616}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
